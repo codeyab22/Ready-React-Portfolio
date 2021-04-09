@@ -1,12 +1,12 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
+import Preloader from "../src/components/Pre.js";
+import Navbar from "./components/Navbar.js";
+import Contact from "./components/contact.jxs";
 import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
-import Resume from "./components/Resume/Resume";
+import Projects from "./components/Projects.";
+import Footer from "./components/Footer.js";
+import Resume from "./components/Resume.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
