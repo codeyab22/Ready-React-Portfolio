@@ -6,8 +6,8 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
+import Bad to Dad from "../../Assets/Projects/Code-Quiz.png";
+import weather from "../../Assets/Projects/Weather-Dashboard.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
 import eeg from "../../Assets/Projects/eeg.gif";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -30,9 +30,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
+              title="Bad to Dad Dadabasse"
               description="A joke generator app that makes your friends chuckle and b."
-              link="https://github.com/codeyab/Plant_AI"
+              link="https://github.com/codeyab22/Plant_AI"
             />
           </Col>
 
@@ -40,7 +40,7 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
+              title="Quarantine and Chill"
               description="Online api generator that helps people to pick a random movie, drink and meal to have a good rest of the weekends to relax with their friends"
               link="https://github.com/codeyab/Editor.io"
             />
