@@ -104,15 +104,14 @@ class Contact extends React.Component {
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
-                          you.
+                          Whether you want to chat or talk about project collobration, I would 
+                          love to hear you.
                           <br />
                           Simply fill the from and send me an email.
                         </p>
                         {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
+                                <li><span class="ion-ios-location"></span> 111 Mulberry Street</li>
+                                <li><span class="ion-ios-telephone"></span> (973) 350-4655</li>
                                 <li><span class="ion-email"></span> contact@example.com</li>
                                 </ul> --> */}
                       </div>
