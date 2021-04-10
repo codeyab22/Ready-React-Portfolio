@@ -20,13 +20,14 @@ import 'lightbox2/dist/js/lightbox.min.js';
 import * as serviceWorker from './serviceWorker';
 
 //import components
-import Navbar from './components/navbar.jsx';
+import Navbar from './components/Navbar.js';
 import Intro from './components/intro.jsx';
-import About from './components/about.jsx';
-import Portfolio from './components/portfolio.jsx';
-import Contact from './components/contact.jsx';
-import BackToTop from './components/back-top.jsx';
-import Preloader from './components/preloader';
+import About from './components/About.js';
+import Portfolio from './components/Portfolio.js';
+import Contact from './components/Contact.js';
+import ScrolltoTop from './components/import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import Preloader from './components/Pre.js';
 
 
 
@@ -37,8 +38,8 @@ ReactDOM.render(
         <About />
         <Portfolio />
         <Contact />
-        <BackToTop />
-        <Preloader />
+        <ScrollToTop />
+        <Pre />
     </React.Fragment>,
 document.getElementById('root'));
 
