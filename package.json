@@ -1,11 +1,11 @@
 {
-  "name": "portfolio",
+  "name": "Ready-React Portfolio",
   "version": "0.1.0",
   "engines": {
     "node": "16.x"
   },
   "private": true,
-  "homepage": "https://codeyab22.github.io/react-portfolio/",
+"homepage": "https://codeyab22.github.io/Ready-React-Portfolio/";,
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
