@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import "./App.css";
+=======
+ import "./App.css";
+>>>>>>> bccbd2f905bc4f6c84bf94f406047d577b7f74e5
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
@@ -36,4 +40,8 @@ function App() {
   );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> bccbd2f905bc4f6c84bf94f406047d577b7f74e5
