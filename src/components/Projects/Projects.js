@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Bad to Dad from "../../Assets/Projects/Code-Quiz.png";
+import dad from "../../Assets/Projects/Code-Quiz.png";
 import weather from "../../Assets/Projects/Weather-Dashboard.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
 import eeg from "../../Assets/Projects/eeg.gif";
