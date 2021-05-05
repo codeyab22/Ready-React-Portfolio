@@ -5,15 +5,15 @@
     "node": "16.x"
   },
   "private": true,
-<<<<<<< HEAD
+
   "homepage": "https://codeyab22.github.io/Ready-React-Portfolio/",
-=======
+
 
   "homepage": "https://codeyab22.github.io/Ready-React-Portfolio/",
 
 "homepage": "https://codeyab22.github.io/Ready-React-Portfolio/",
 
->>>>>>> d00e5c4e2656577b27b3b1f7624efb3abdfeabef
+
   "dependencies": {
     "bootstrap": "^4.3.1",
     "es-abstract": "*",
@@ -24,15 +24,15 @@
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-<<<<<<< HEAD
+
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
-=======
+
 
     "react-router-dom": "^5.2.0",
 
     "react-scripts": "^3.3.0",
->>>>>>> d00e5c4e2656577b27b3b1f7624efb3abdfeabef
+
     "react-typed": "^1.1.2",
     "typed.js": "^2.0.10"
   },
