@@ -6,13 +6,13 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import dad from "../../Assets/Projects/Code-Quiz.png";
-import weather from "../../Assets/Projects/Weather-Dashboard.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import dad from "../../Assets/Projects/Bad-to-Dad.png";
+import chill from "../../Assets/Projects/calendar-planner.jpeg";
+import calendar from "../../Assets/Projects/password.png";
+import password from "../../Assets/Projects/eeg.gif";
+import weather from "../../Assets/Projects/suicide.png";
+import revitalize from "../../Assets/Projects/algo.png";
+import readme from "../../Assets/Projects/plant.jpeg";
 
 function Projects() {
   return (
@@ -28,7 +28,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={dad}
               isBlog={false}
               title="Bad to Dad Dadabasse"
               description="A joke generator app that makes your friends chuckle and b."
@@ -38,7 +38,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={chill}
               isBlog={false}
               title="Quarantine and Chill"
               description="Online api generator that helps people to pick a random movie, drink and meal to have a good rest of the weekends to relax with their friends"
@@ -68,7 +68,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eeg}
+              imgPath={weather}
               isBlog={false}
               title="Weather Dashboard"
               description="Use the weather api to track the forecast weather conditions."
@@ -83,17 +83,17 @@ function Projects() {
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={algo}
+              imgPath={revitalize}
               link=""
-              title="Cracking Interview"
+              title="Mental Heath App for technological professionals to rest their day from stress and fatigue"
               site="gitbook.com"
             />
           </Col>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={plant}
+              imgPath={readme}
               link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
+              title="ReadMe Generator"
               site="medium.com"
             />
           </Col>
