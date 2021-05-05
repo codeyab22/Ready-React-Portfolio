@@ -6,13 +6,13 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Bad to Dad from "../../Assets/Projects/Code-Quiz.png";
-import weather from "../../Assets/Projects/Weather-Dashboard.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import dad from "../../Assets/Projects/bad-to-dad.jpg";
+import chill from "../../Assets/Projects/quarantine-and-chill.jpg";
+import calendar from "../../Assets/Projects/calender-planner.jpg";
+import password from "../../Assets/Projects/password.jpg";
+import weather from "../../Assets/Projects/weather-dashboard.jpg";
+import revitalize from "../../Assets/Projects/revitalize.jpg";
+import fit from "../../Assets/Projects/fab-fitness.jpg";
 
 function Projects() {
   return (
@@ -28,21 +28,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={dad}
               isBlog={false}
               title="Bad to Dad Dadabasse"
-              description="A joke generator app that makes your friends chuckle and b."
-              link="https://github.com/codeyab22/Plant_AI"
+              description="A joke generator app that makes your friends chuckle and have a good time."
+              link="https://shielded-caverns-11387.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={chill}
               isBlog={false}
               title="Quarantine and Chill"
-              description="Online api generator that helps people to pick a random movie, drink and meal to have a good rest of the weekends to relax with their friends"
-              link="https://github.com/codeyab/Editor.io"
+              description="Online api generator that helps people to pick a random movie, drink and meal to have a good rest of the weekends to relax with their friends."
+              link="https://github.com/ctobin25/quarantine-and-chill"
             />
           </Col>
 
@@ -51,8 +51,8 @@ function Projects() {
               imgPath={calendar}
               isBlog={false}
               title="Calculate this Day Planner"
-              description="Using 'Calendar App of saving your events for the schedule."
-              link="https://github.com/codeyab22/AI_For_Social_Good"
+              description="An spicy calendar app of saving your events for the schedule."
+              link="https://github.com/codeyab22/Calculate-this-Day-Calendar-Planner"
             />
           </Col>
 
@@ -61,40 +61,40 @@ function Projects() {
               imgPath={password}
               isBlog={false}
               title="Pasword Generator"
-              description="Generated a password that uses authentication for the user to create a random password"
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              description="Password generator app that uses authentication for the user to create a random password."
+              link="https://github.com/codeyab22/Code-Convertible-Password-Generator"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eeg}
+              imgPath={weather}
               isBlog={false}
               title="Weather Dashboard"
-              description="Use the weather api to track the forecast weather conditions."
-              link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
+              description="Weather api app to track the forecast weather conditions."
+              link="https://github.com/codeyab22/Wise-Weather-Dashboard"
             />
           </Col>
         </Row>
         <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
         </h1>
-        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
+        <p style={{ color: "white" }}>Make time to make blogs</p>
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={algo}
-              link=""
-              title="Cracking Interview"
+              imgPath={revitalize}
+              link="https://github.com/Latinobull/Revitalize"
+              title="Mental health and wellness app for technological professionals to rest their day from stress and fatigue."
               site="gitbook.com"
             />
           </Col>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
+              imgPath={fit}
+              link="https://shielded-caverns-11387.herokuapp.com/login"
+              title="Fab Fitness"
+              site="https://fab-fitness-tracker.herokuapp.com/"
             />
           </Col>
         </Row>

@@ -1,28 +1,23 @@
 {
-  "name": "Ready-React Portfolio",
+  "name": "Ready-React-Portfolio",
   "version": "0.1.0",
   "engines": {
     "node": "16.x"
   },
   "private": true,
-<<<<<<< HEAD
   "homepage": "https://codeyab22.github.io/Ready-React-Portfolio/",
-=======
-"homepage": "https://codeyab22.github.io/Ready-React-Portfolio/",
->>>>>>> bccbd2f905bc4f6c84bf94f406047d577b7f74e5
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "es-abstract": "*",
+    "install": "^0.13.0",
     "jquery": "^3.4.1",
     "lightbox2": "^2.11.0",
     "normalize.css": "^8.0.1",
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-<<<<<<< HEAD
     "react-router-dom": "^5.2.0",
-=======
->>>>>>> bccbd2f905bc4f6c84bf94f406047d577b7f74e5
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^3.4.4",
     "react-typed": "^1.1.2",
     "typed.js": "^2.0.10"
   },
