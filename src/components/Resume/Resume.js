@@ -102,6 +102,9 @@ function Resume() {
   );
 }
  export default Resume; 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d00e5c4e2656577b27b3b1f7624efb3abdfeabef
 
 
