@@ -9,12 +9,8 @@
   "homepage": "https://codeyab22.github.io/Ready-React-Portfolio/",
 
 
-  "homepage": "https://codeyab22.github.io/Ready-React-Portfolio/",
-
-"homepage": "https://codeyab22.github.io/Ready-React-Portfolio/",
-
-
   "dependencies": {
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "es-abstract": "*",
     "install": "^0.13.0",
@@ -23,14 +19,16 @@
     "normalize.css": "^8.0.1",
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^16.8.6",
+
 
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
 
-
+   
+	
     "react-router-dom": "^5.2.0",
-
     "react-scripts": "^3.3.0",
 
     "react-typed": "^1.1.2",
@@ -60,3 +58,4 @@
     ]
   }
 }
+
