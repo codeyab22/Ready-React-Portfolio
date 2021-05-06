@@ -42,18 +42,18 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Analyst [Omdena]"
+              title="Data Analytics [BrainStation]"
               date="February 2021 - April 2021"
               content={[
-                "Utilized significant data and use technology such Tableau to find problems in modeling and the numbers of visitors attended to museums through surveying and research.",
+                "Utilized significant data and use technology such Tableau to find problems in modeling and the numbers of visitors attended to musuem through surveying and research.",
                 
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Data Analyst [Feb 2021-Present]"
+              title="Girls Who Code participant [Feb 2021-Present]"
               content={[
-                "Creating new data and findings using technology such as MySQL and Tableau.",
+                "Execued coding  projects and activities through communicationg resours that are useful for women and girls.",
               ]}
             />
             <Resumecontent
@@ -66,26 +66,26 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="college of St Elizabeth' [Morristown, NJ] "
+              title="College of St. Elizabeth' [Morristown, NJ] "
               date="2011 - 2015"
               content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
             />
             <Resumecontent
-              title="Representative of the STAC[ODM Morristown,NJ]"
+              title="Representative of the STAC[Morristown,NJ]"
               date="2011 - 2015"
               content={["Precentage: 88%"]}
             />
             <Resumecontent
-              title="Representative of Lectures Concerts [Morristown,NJ] "
+              title="Representative of Lectures Concerts [Morristown, NJ] "
               date="2013 - 2015"
               content={["Precentage: 86%"]}
             />
-            <h3 className="resume-title">Ranks and Acheivements</h3>
+            <h3 className="resume-title">Ranks and Achievements</h3>
             <Resumecontent
               title=""
               content={[
-                `Current employee ${spojRank}`,
-                `Current student in Boot Camp  ${hackerrank}`,
+                `Current job-seeker ${spojRank}`,
+                `Current student in Coding Boot Camp  ${hackerrank}`,
                 "Top Performer in Code-Break 1.0",
                 "Participant in Girls Who Code",
               ]}
@@ -102,6 +102,3 @@ function Resume() {
   );
 }
  export default Resume; 
-
-
-
