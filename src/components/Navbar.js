@@ -1,142 +1,99 @@
-import React from "react";
-import $ from "jquery";
+import React, { useState } from "react";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import "../style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import logo from "../Assets/logo.png";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
-import logo1 from "../img/male1.png";
-import logo2 from "../img/male.png";
+function NavBar() {
+  const [expand, updateExpanded] = useState(false);
+  const [navColour, updateNavbar] = useState(false);
 
-class Navbar extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      logo: logo1
-    };
+  function scrollHandler() {
+    if (window.scrollY >= 20) {
+      updateNavbar(true);
+    } else {
+      updateNavbar(false);
+    }
   }
 
-  componentDidMount() {
-    const nav = $("nav");
-    let navHeight = nav.outerHeight();
+  window.addEventListener("scroll", scrollHandler);
 
-    $(".navbar-toggler").on("click", function() {
-      if (!$("#mainNav").hasClass("navbar-reduce")) {
-        $("#mainNav").addClass("navbar-reduce");
-      }
-    });
+  return (
+    <Navbar
+      expanded={expand}
+      fixed="top"
+      expand="md"
+      className={navColour ? "sticky" : "navbar"}
+    >
+      <Container>
+        <Navbar.Brand href="/">
+          <img src={logo} className="img-fluid logo" alt="brand" />
+        </Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={() => {
+            updateExpanded(expand ? false : "expanded");
+          }}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </Navbar.Toggle>
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto" defaultActiveKey="#home">
+            <Nav.Item>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                <i className="fas fa-home"></i> Home
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => updateExpanded(false)}
+              >
+                <i className="far fa-user"></i> About
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/project"
+                onClick={() => updateExpanded(false)}
+              >
+                <i className="fab fa-codepen"></i> Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <i className="far fa-file-alt"></i> Resume
+              </Nav.Link>
+            </Nav.Item>
 
-    $("body").scrollspy({
-      target: "#mainNav",
-      offset: navHeight
-    });
-
-    $(".js-scroll").on("click", function() {
-      $(".navbar-collapse").collapse("hide");
-    });
-
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 50) {
-        document
-          .querySelector(".navbar-expand-md")
-          .classList.add("navbar-reduce");
-        document
-          .querySelector(".navbar-expand-md")
-          .classList.remove("navbar-trans");
-        this.setState({ logo: logo2 });
-      } else {
-        document
-          .querySelector(".navbar-expand-md")
-          .classList.add("navbar-trans");
-        document
-          .querySelector(".navbar-expand-md")
-          .classList.remove("navbar-reduce");
-        this.setState({ logo: logo1 });
-      }
-    });
-
-    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
-      if (
-        window.location.pathname.replace(/^\//, "") ===
-          this.pathname.replace(/^\//, "") &&
-        window.location.hostname === this.hostname
-      ) {
-        var target = $(this.hash);
-        target = target.length
-          ? target
-          : $("[name=" + this.hash.slice(1) + "]");
-        if (target.length) {
-          $("html, body").animate(
-            {
-              scrollTop: target.offset().top - navHeight + 5
-            },
-            1000,
-            "easeInExpo"
-          );
-          return false;
-        }
-      }
-    });
-
-    $(".js-scroll").on("click", function() {
-      $(".navbar-collapse").collapse("hide");
-    });
-  }
-
-  render() {
-    return (
-      <nav
-        className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
-        id="mainNav"
-      >
-        <div className="container">
-          <a className="navbar-brand js-scroll" href="#page-top">
-            <img
-              src={this.state.logo}
-              alt="logo"
-              style={{ maxWidth: "100px" }}
-            />
-          </a>
-          <button
-            className="navbar-toggler collapsed"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarDefault"
-            aria-controls="navbarDefault"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <div
-            className="navbar-collapse collapse justify-content-end"
-            id="navbarDefault"
-          >
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link js-scroll active" href="#home">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll" href="#about">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll" href="#work">
-                  Work
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll" href="#contact">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    );
-  }
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://github.com/codeyab22/Ready-React-Portfolio"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <i className="fas fa-code-branch"></i>{" "}
+                <i className="far fa-star"></i>
+              </Button>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar;
+export default NavBar;
+     
