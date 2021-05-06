@@ -32,7 +32,7 @@ function Projects() {
               isBlog={false}
               title="Bad to Dad Dadabasse"
               description="A joke generator app that makes your friends chuckle and have a good time."
-              link="https://shielded-caverns-11387.herokuapp.com/"
+              link="https://github.com/puentebravo/project2"
             />
           </Col>
 
