@@ -6,23 +6,13 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-<<<<<<< HEAD
 import dad from "../../Assets/Projects/bad-to-dad.jpg";
 import chill from "../../Assets/Projects/quarantine-and-chill.jpg";
-import calendar from "../../Assets/Projects/calender-planner.jpg";
+import calendar from "../../Assets/Projects/calendar-planner.jpg";
 import password from "../../Assets/Projects/password.jpg";
 import weather from "../../Assets/Projects/weather-dashboard.jpg";
 import revitalize from "../../Assets/Projects/revitalize.jpg";
 import fit from "../../Assets/Projects/fab-fitness.jpg";
-=======
-import dad from "../../Assets/Projects/Bad-to-Dad.png";
-import chill from "../../Assets/Projects/calendar-planner.jpeg";
-import calendar from "../../Assets/Projects/password.png";
-import password from "../../Assets/Projects/eeg.gif";
-import weather from "../../Assets/Projects/suicide.png";
-import revitalize from "../../Assets/Projects/algo.png";
-import readme from "../../Assets/Projects/plant.jpeg";
->>>>>>> d00e5c4e2656577b27b3b1f7624efb3abdfeabef
 
 function Projects() {
   return (
@@ -70,7 +60,7 @@ function Projects() {
             <ProjectCard
               imgPath={password}
               isBlog={false}
-              title="Pasword Generator"
+              title="Password Generator"
               description="Password generator app that uses authentication for the user to create a random password."
               link="https://github.com/codeyab22/Code-Convertible-Password-Generator"
             />
@@ -94,29 +84,17 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={revitalize}
-<<<<<<< HEAD
               link="https://github.com/Latinobull/Revitalize"
               title="Mental health and wellness app for technological professionals to rest their day from stress and fatigue."
-=======
-              link=""
-              title="Mental Heath App for technological professionals to rest their day from stress and fatigue"
->>>>>>> d00e5c4e2656577b27b3b1f7624efb3abdfeabef
-              site="gitbook.com"
+              site="https://shielded-caverns-11387.herokuapp.com/login"
             />
           </Col>
           <Col md={4} className="blog-card">
             <BlogCard
-<<<<<<< HEAD
               imgPath={fit}
               link="https://shielded-caverns-11387.herokuapp.com/login"
               title="Fab Fitness"
               site="https://fab-fitness-tracker.herokuapp.com/"
-=======
-              imgPath={readme}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="ReadMe Generator"
-              site="medium.com"
->>>>>>> d00e5c4e2656577b27b3b1f7624efb3abdfeabef
             />
           </Col>
         </Row>
