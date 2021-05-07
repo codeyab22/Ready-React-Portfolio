@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Ready-React-Portfolio/static/css/main.addaf861.chunk.css",
+    "main.js": "/Ready-React-Portfolio/static/js/main.450b8e0a.chunk.js",
+    "main.js.map": "/Ready-React-Portfolio/static/js/main.450b8e0a.chunk.js.map",
+    "runtime-main.js": "/Ready-React-Portfolio/static/js/runtime-main.b3f4090e.js",
+    "runtime-main.js.map": "/Ready-React-Portfolio/static/js/runtime-main.b3f4090e.js.map",
+    "static/css/2.9233ae65.chunk.css": "/Ready-React-Portfolio/static/css/2.9233ae65.chunk.css",
+    "static/js/2.726b88e6.chunk.js": "/Ready-React-Portfolio/static/js/2.726b88e6.chunk.js",
+    "static/js/2.726b88e6.chunk.js.map": "/Ready-React-Portfolio/static/js/2.726b88e6.chunk.js.map",
+    "index.html": "/Ready-React-Portfolio/index.html",
+    "precache-manifest.83dd7d9e96d4778c7b21ccff10070190.js": "/Ready-React-Portfolio/precache-manifest.83dd7d9e96d4778c7b21ccff10070190.js",
+    "service-worker.js": "/Ready-React-Portfolio/service-worker.js",
+    "static/css/2.9233ae65.chunk.css.map": "/Ready-React-Portfolio/static/css/2.9233ae65.chunk.css.map",
+    "static/css/main.addaf861.chunk.css.map": "/Ready-React-Portfolio/static/css/main.addaf861.chunk.css.map",
+    "static/js/2.726b88e6.chunk.js.LICENSE.txt": "/Ready-React-Portfolio/static/js/2.726b88e6.chunk.js.LICENSE.txt",
+    "static/media/about.png": "/Ready-React-Portfolio/static/media/about.af7da113.png",
+    "static/media/adiaResume.pdf": "/Ready-React-Portfolio/static/media/adiaResume.85a81530.pdf",
+    "static/media/avatar.svg": "/Ready-React-Portfolio/static/media/avatar.d4483ed4.svg",
+    "static/media/bad-to-dad.jpg": "/Ready-React-Portfolio/static/media/bad-to-dad.e4a392ca.jpg",
+    "static/media/calendar-planner.jpg": "/Ready-React-Portfolio/static/media/calendar-planner.ad2cbdc0.jpg",
+    "static/media/fab-fitness.jpg": "/Ready-React-Portfolio/static/media/fab-fitness.44cdc170.jpg",
+    "static/media/style.css": "/Ready-React-Portfolio/static/media/pre.cf8c6935.svg",
+    "static/media/home-main.svg": "/Ready-React-Portfolio/static/media/home-main.d8b8b769.svg",
+    "static/media/logo.png": "/Ready-React-Portfolio/static/media/logo.36d1327f.png",
+    "static/media/password.jpg": "/Ready-React-Portfolio/static/media/password.10ea33b7.jpg",
+    "static/media/quarantine-and-chill.jpg": "/Ready-React-Portfolio/static/media/quarantine-and-chill.563aa8be.jpg",
+    "static/media/revitalize.jpg": "/Ready-React-Portfolio/static/media/revitalize.fe6d65af.jpg",
+    "static/media/weather-dashboard.jpg": "/Ready-React-Portfolio/static/media/weather-dashboard.e4295aa8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3f4090e.js",
+    "static/css/2.9233ae65.chunk.css",
+    "static/js/2.726b88e6.chunk.js",
+    "static/css/main.addaf861.chunk.css",
+    "static/js/main.450b8e0a.chunk.js"
+  ]
+}
