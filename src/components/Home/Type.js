@@ -7,8 +7,8 @@ function Type() {
       options={{
         strings: [
           "Developer",
-          "Deep Learning Engineer",
-          "MERN Stack Developer",
+          "Artist",
+          "Writer",
           "Open Source Contributor",
         ],
         autoStart: true,
@@ -20,3 +20,6 @@ function Type() {
 }
 
 export default Type;
+
+
+
