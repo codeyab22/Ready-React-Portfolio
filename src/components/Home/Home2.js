@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
-import "../../style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
+import {
 
 function Home2() {
   return (
@@ -15,25 +14,24 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am brillant at communicating my  🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am like to work with the basics, math and computer science(CS)
               <i>
-                <b className="purple"> C++, Python and Javascript. </b>
+                <b className="purple"> R++, Wolfram, Python and C. </b>
               </i>
               <br />
               <br />
-              My current focus is on &nbsp;
+              My current focus is on coding and getting the;
               <i>
                 <b className="purple">
-                  Deep Learning and Natural Language Processing.
+                  Machine Learning and.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with
+              Whenever possible, I am would like to work in sciences and 
+              with arts. 
               <i>
                 <b className="purple"> Modern Javascript Frameworks</b>
               </i>
@@ -44,9 +42,7 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+            
           </Col>
         </Row>
         <Row>
@@ -58,7 +54,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/codeyab22"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
