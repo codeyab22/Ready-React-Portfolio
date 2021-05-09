@@ -1,25 +1,25 @@
-import React from "react";
-import Typewriter from "typewriter-effect";
+//import React from "react";
+//import Typewriter from "typewriter-effect";
 
-function Type() {
-  return (
-    <Typewriter
-      options={{
-        strings: [
-          "Developer",
-          "Artist",
-          "Writer",
-          "Open Source Contributor",
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
-  );
-}
+//function Type() {
+  //return (
+    //<Typewriter
+      //options={{
+        //strings: [
+          //"Developer",
+          //"Artist",
+          //"Writer",
+          //"Open Source Contributor",
+        //],
+        //autoStart: true,
+        //loop: true,
+        //deleteSpeed: 50,
+      //}}
+    ///>
+  //);
+//}
 
-export default Type;
+//export default Type;
 
 
 
