@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46f7839d2431e4fd965332c3de1230ea",
+    "revision": "303737b8fd5f725940eefc55bdcede07",
     "url": "/Ready-React-Portfolio/index.html"
   },
   {
-    "revision": "94d1e513f53646fb9dc0",
+    "revision": "4a9efb42a962f61a8dd1",
     "url": "/Ready-React-Portfolio/static/css/2.9233ae65.chunk.css"
   },
   {
-    "revision": "ca63ba1f84c593ea78f2",
-    "url": "/Ready-React-Portfolio/static/css/main.addaf861.chunk.css"
+    "revision": "ebb5a1e79dff90e75b41",
+    "url": "/Ready-React-Portfolio/static/css/main.c371b335.chunk.css"
   },
   {
-    "revision": "94d1e513f53646fb9dc0",
-    "url": "/Ready-React-Portfolio/static/js/2.726b88e6.chunk.js"
+    "revision": "4a9efb42a962f61a8dd1",
+    "url": "/Ready-React-Portfolio/static/js/2.83ad6f77.chunk.js"
   },
   {
     "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
-    "url": "/Ready-React-Portfolio/static/js/2.726b88e6.chunk.js.LICENSE.txt"
+    "url": "/Ready-React-Portfolio/static/js/2.83ad6f77.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca63ba1f84c593ea78f2",
-    "url": "/Ready-React-Portfolio/static/js/main.450b8e0a.chunk.js"
+    "revision": "7bb9bdeff7296c28af6f",
+    "url": "/Ready-React-Portfolio/static/js/3.3945c9af.chunk.js"
   },
   {
-    "revision": "77a3f2adb37dfe20385c",
-    "url": "/Ready-React-Portfolio/static/js/runtime-main.b3f4090e.js"
+    "revision": "ebb5a1e79dff90e75b41",
+    "url": "/Ready-React-Portfolio/static/js/main.d6f52fc0.chunk.js"
   },
   {
-    "revision": "af7da113e342bdff001c96288d5e5737",
-    "url": "/Ready-React-Portfolio/static/media/about.af7da113.png"
+    "revision": "5e4eb4a4c7412e668593",
+    "url": "/Ready-React-Portfolio/static/js/runtime-main.d22d98b6.js"
+  },
+  {
+    "revision": "a46fb4e15d43c4844133e25d20824877",
+    "url": "/Ready-React-Portfolio/static/media/about.a46fb4e1.png"
   },
   {
     "revision": "85a8153083401ab22052328b0c71789f",
@@ -52,16 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ready-React-Portfolio/static/media/fab-fitness.44cdc170.jpg"
   },
   {
-    "revision": "23b2eabece859679d248fcf6fde0426f",
-    "url": "/Ready-React-Portfolio/static/media/home-bg.23b2eabe.jpg"
+    "revision": "225b99918a5ed4c7d639a8bdddff47db",
+    "url": "/Ready-React-Portfolio/static/media/home-bg.225b9991.jpg"
   },
   {
     "revision": "d8b8b7693e559b396a39e0c96c3066dd",
     "url": "/Ready-React-Portfolio/static/media/home-main.d8b8b769.svg"
-  },
-  {
-    "revision": "36d1327fad78723174206e16b0afe3f0",
-    "url": "/Ready-React-Portfolio/static/media/logo.36d1327f.png"
   },
   {
     "revision": "10ea33b7f97a19900aca4db8ee5e793b",
