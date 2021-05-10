@@ -5,7 +5,7 @@
     "node": "16.x"
   },
   "private": true,
-  "homepage": "https://codeyab22.github.io/Ready-React-Portfolio/",
+  "homepage": "homepage": "https://codeyab22.github.io/",
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
