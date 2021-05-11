@@ -11,6 +11,8 @@ Install Node and run npm install
 use npm start to start your server. It will tell if you are missing or good to go. 
 Make sure you install all your modules of the dependencies
 
+Do Npm run deploy for your website to be published with an update. 
+
 
 
 Option: If does not work, go to download node in linux
@@ -26,7 +28,7 @@ When I run the deployment of the website, it refreshes the portfolio with a new 
 # Motivation(s)
 
 My motivation is to start over again and make sure the elements are in touch with the format. Another motivation is to be do work that inspires me
-as a web developer. Being a web developer is picking my own
+as a web developer. Being a web developer is picking my own style and being understanding of the fundamentals of the website.
 
 
 
