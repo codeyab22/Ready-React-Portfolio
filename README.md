@@ -38,7 +38,7 @@ Link of the repo: https://github.com/codeyab22/Ready-React-Portfolio/
 
 # Link of the Deployed Website:
 
-Link of the Deployed website: http://localhost:3000/project
+Link of the Deployed website in gh-pages: https://codeyab22.github.io/Ready-React-Portfolio/
 
 
 # Author(s)
