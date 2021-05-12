@@ -38,7 +38,7 @@ Link of the deployed website in gh-pages: https://codeyab22.github.io/Ready-Reac
 
 # Screenshot of the Deployed Website:
 
-![image](https://drive.google.com/uc?export=view&id=1U0D-ShkskTS0zM67lJ1gYz8zr9Gg0t0z/)
+![image](https://drive.google.com/uc?export=view&id=1U0D-ShkskTS0zM67lJ1gYz8zr9Gg0t0z)
 
 # Author(s)
 
